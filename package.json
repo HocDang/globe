@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./node_modules/webpack/bin/webpack.js --mode production --watch --progress",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode production --progress"
   },
   "repository": {
     "type": "git",
@@ -13,10 +14,14 @@
   "keywords": [
     "globe"
   ],
-  "author": "HocDang",
+  "author": "https://hocdang.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HocDang/globe/issues"
   },
-  "homepage": "https://github.com/HocDang/globe#readme"
+  "homepage": "https://github.com/HocDang/globe#readme",
+  "devDependencies": {
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1"
+  }
 }
