@@ -1,0 +1,22 @@
+{
+  "name": "globe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HocDang/globe.git"
+  },
+  "keywords": [
+    "globe"
+  ],
+  "author": "HocDang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HocDang/globe/issues"
+  },
+  "homepage": "https://github.com/HocDang/globe#readme"
+}
