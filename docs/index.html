@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Globe JS</title>
+    </head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <body>
+        <canvas id="globe"></canvas>
+        <script src="../dist/globe.js"></script>
+        <script>
+            let globe = document.getElementById("globe");
+            let Globe = new IO.Globe(globe);
+        </script>
+    </body>
+</html>
